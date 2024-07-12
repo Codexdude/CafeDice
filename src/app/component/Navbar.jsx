@@ -10,10 +10,6 @@ export default function Navbar() {
         <Logo />
 
         <nav className="md:ml-auto flex flex-wrap items-center space-x-5 text-base justify-center">
-    <header className="text-gray-600 body-font">
-    <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <Logo/>
-        <nav className="md:ml-auto flex flex-wrap items-center space-x-5 text-base justify-center">
           <Button url="/about" title="About Us" />
           <Button url="/menu" title="Menu" />
           <Button url="/boardgames" title="Boardgames" />

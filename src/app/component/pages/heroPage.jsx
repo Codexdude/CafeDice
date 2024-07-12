@@ -82,7 +82,7 @@ const Hero = () => {
             </p>
             <div className="flex justify-center">
               <a href="/about" className="inline-flex text-white bg-yellow-500 border-0 py-3 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">About Us</a>
-              <a href="/contactUs" className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-3 px-8 focus:outline-none hover:bg-gray-200 rounded text-lg">Contact Us</a>
+              <a href="/contact" className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-3 px-8 focus:outline-none hover:bg-gray-200 rounded text-lg">Contact Us</a>
             </div>
             {openingInfo && <p className={`text-gray-300 text-lg mt-4 ${openingInfo.opening ? 'pop' : ''}`}>{openingInfo.closing}</p>}
           </div>
@@ -149,7 +149,7 @@ const Hero = () => {
             <div className="w-full md:w-1/3 px-8 py-6 border-l-2 border-gray-200 border-opacity-60 max-w-sm">
               <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Fun Games</h2>
               <p className="leading-relaxed text-base mb-4">Add excitement to your event with our selection of fun and engaging games suitable for all ages.</p>
-              <a href="boardgame" className="text-yellow-500 inline-flex items-center">Learn More
+              <a href="/boardgames" className="text-yellow-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
