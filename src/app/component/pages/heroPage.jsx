@@ -60,7 +60,7 @@ const Hero = () => {
   return (
     <>
       <section
-        className="text-gray-600 body-font relative"
+        className="text-gray-600 body-font relative mt-20"
         style={{
           backgroundImage: "url('/pixel-jeff-cafe.gif')",
           backgroundSize: 'cover',
