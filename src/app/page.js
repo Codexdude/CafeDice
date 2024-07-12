@@ -1,4 +1,4 @@
-import Hero from "./heroSection/Hero";
+import Hero from "./heroSection/page";
 import './globals.css';
 export default function Home() {
   return (
