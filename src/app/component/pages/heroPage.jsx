@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import heroImage from '../../../public/HeroImage.jpeg';
+import heroImage from '@/public/HeroImage.jpeg';
 
-const Hero = () => {
+export default function Hero () {
 return (
     <>
         <section className="text-gray-600 body-font">
@@ -63,5 +63,3 @@ return (
     </>
 )
 }
-
-export default Hero

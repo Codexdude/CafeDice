@@ -1,6 +1,5 @@
-import Hero from "./heroSection/page";
+import Hero from "@/src/app/component/pages/heroPage";
 import './globals.css';
-import ContactUs from "./contactUs/contactUs";
 export default function Home() {
   return (
     <main>

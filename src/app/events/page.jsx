@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = () => {
+export default function EventsPage  ()  {
   return (
     <div>
       <h1> eventscalendar is working </h1>
@@ -8,4 +8,3 @@ const page = () => {
   )
 }
 
-export default page
