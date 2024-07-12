@@ -31,7 +31,7 @@ export default function ContactPage() {
   };
 
   return (
-    <section className="text-gray-600 body-font relative">
+    <section className="text-gray-600 body-font relative mt-20">
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
@@ -43,7 +43,7 @@ export default function ContactPage() {
             marginHeight="0"
             marginWidth="0"
             scrolling="no"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Sip&Play,Ottawa&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+            src="https://maps.google.com/maps?q=471%205th%20Ave,%20Brooklyn,%20NY%2011215,%20USA%20Sip%20%26%20Play&output=embed"
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
           ></iframe>
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">

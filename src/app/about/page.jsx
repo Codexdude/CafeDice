@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AboutPage = () => (
-  <section class="text-gray-600 body-font">
+  <section class="text-gray-600 body-font mt-20">
     <div class="container px-5 py-24 mx-auto flex flex-col">
       <div class="lg:w-4/6 mx-auto">
         <div class="rounded-lg h-160 overflow-hidden"> 
